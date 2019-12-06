@@ -1,0 +1,65 @@
+/* 
+
+ @Author: Marina Lazaridou
+ @Subject: Part of student project on Geovisualisation and WebGIS
+ @File type: CSS
+
+*/
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.backimage {
+	background-image: url("stage4.jpg");
+	background-color: #cccccc;
+	background-repeat: no-repeat;
+	height: 1180px;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+	
+	
+#map {
+  width: 60%;
+  height: 64%;
+  position: absolute;
+  left: 19%;
+  top: 33%;
+  right: -20%;
+}
+  
+h1 {
+	font-family: Tahoma, Franklin Gothic Medium, Trebuchet MS;
+	display: block;
+	text-align: center;
+	font-size : 4em;
+	margin-top: 0;
+	margin-bottom: 0.67em;
+	margin-left: 0;
+	margin-right: 0;
+	color: #FFD700;
+	font-weight: bold;
+}
+
+p {
+	font-family: Franklin Gothic Medium, Tahoma, Trebuchet MS;
+	font-size: 1em;
+	color: #FFD700;
+	margin-left: 18em;
+	margin-right: 20em;
+	text-align: justify;
+	font-weight:lighter;
+}
+
+a:link {
+  color: #FFC000;
+}
+
+a:visited {
+  color: #FBCEB1;
+}
+	
+	

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- This is an HTML5 document. -->
+
+<!-- 
+
+ @Author: Marina Lazaridou
+ @Subject: Part of student project on Geovisualisation and WebGIS
+ @File type: HTML
+
+ -->
+ 
+<html> 
+<head>
+<!-- Import the links -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<meta charset="UTF-8">
+	
+    <title>Walking tour in the West End</title>
+	
+	<link rel="stylesheet" type="text/css" href="part_b.css">
+	
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="crossorigin=""/>
+	
+	<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="crossorigin=""></script>
+	
+	<script src="part_b.js"></script>
+	
+	<script src="geojson_part_b.js"></script>
+</head>
+<!-- Load the map -->
+<body onload="initMapLL();">
+<!-- Set the background image -->
+	<div class="backimage">
+		<h1><u>West End Walking Tour</u></h1>
+	
+		<p>The West End is an area in central London and is famous for its old and remarkable theatres. It can be characterised as an area that combines modern 
+		and historic architecture with entertainment. All visitors have a unique opportunity to explore some of the city's most popular attractions and museums, 
+		dine and shop.</p>
+		
+		<p>The following map depicts information about an organised walking tour within the West End area. The tour includes the viewing of famous theatres, parks and
+		squares, and introduces the visitors to the exploration of one of the most beautiful, artistic and lively areas of London.</p>
+		
+		<p>The tour's starting point is the <a href="https://phoenix.londontheatres.co.uk/">Phoenix Theatre</a>. Then, the tour continues to the 
+		<a href="https://www.palacetheatrelondon.org/">Palace Theatre</a>, the <a href="https://www.theambassadorstheatre.co.uk/Online/">Ambassadors Theatre</a>,
+		the <a href="http://www.cambridge.theater/">Cambridge Theatre</a>, the <a href="https://artstheatrewestend.co.uk/">Arts Theatre</a>, 
+		<a href="https://chinatown.co.uk/en/">Chinatown</a>,
+		the <a href="http://www.queenstheatre.co.uk/">Queen's Theatre</a>, the <a href="https://www.apollotheatrelondon.co.uk/">Apollo Theatre</a>, 
+		<a href="https://www.leicestersquare.london/">Leicester Square</a>, the <a href="https://www.londontheatre.co.uk/theatres/lyric-theatre">Lyric Theatre></a>, 
+		the <a href="http://www.princeofwalestheatre.co.uk/">Prince of Wales Theatre</a>, the <a href="http://www.noelcowardtheatre.co.uk/">Noël Coward Theatre</a>, 
+		the <a href="https://www.londontheatre.co.uk/theatres/duke-of-yorks-theatre">Duke of York's Theatre</a>, 
+		<a href="https://www.london.gov.uk/about-us/our-building-and-squares/trafalgar-square">Trafalgar Square</a>, 
+		the <a href="https://lwtheatres.co.uk/theatres/adelphi/">Adelphi Theatre</a>, 
+		the <a href="https://www.westminster.gov.uk/my-parks/parks/victoria-embankment-gardens/">Victoria Embankment Gardens</a>,
+		the <a href="https://www.thesavoytheatre.com/">Savoy Theatre</a>, the <a href="https://www.nimaxtheatres.com/theatres/duchess-theatre/">Duchess Theatre</a>, 
+		the <a href="https://www.londontheatre.co.uk/theatres/theatre-royal-drury-lane">Theatre Royal Drury Lane</a>, 
+		the <a href="https://www.londontheatre.co.uk/theatres/fortune-theatre">Fortune Theatre</a> and the <a href="https://www.roh.org.uk/">Royal Opera House</a>
+		and <a href="https://actorschurch.org/">St Paul's Cathedral in Covent Garden</a>. The final place of the tour is <a href="https://www.coventgarden.london/">Covent Garden</a>, 
+		where the visitors have the opportunity to rest and enjoy incredible views while exploring this remarkable area of the city. 
+		
+		<p><br><br><br><br><br><br><br><br></p>
+		<div id="map"></div>
+		
+		<p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></p>
+		
+		
+		
+		<p style="font-size:12px;font-weight:lighter;text-align:center;color:#DC143C"><i>Backround image retrieved from: <a style="color:#DC143C" href="http://www.merlininteriors.co.uk/wp-content/uploads/2016/05/shutterstock_370478597.jpg">www.merlininteriors.co.uk/wp-content/uploads/2016/05/shutterstock_370478597.jpg</a></i></p>	
+	</div>
+</body>
+</html>
